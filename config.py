@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6203163206"))
+OWNER_ID = int(getenv("OWNER_ID", "6628076375"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -31,14 +31,14 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO", "https://github.com/Learningbots79/LB_Music", # dont Change this otherwise u get error 🧧
+    "UPSTREAM_REPO", "cretemusicworld", # dont Change this otherwise u get error 🧧
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learningbots79")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "cretemusicworld")
 SUPPORT_CHAT = getenv("SUPPORT_GROUP", "https://t.me/learning_bots")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -77,7 +77,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/214f53702f788c668e294.jpg"
+    "START_IMG_URL", "https://graph.org/file/0407acaadd103e40dac7c.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/214f53702f788c668e294.jpg"
